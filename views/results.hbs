@@ -1,1 +1,7 @@
 <h2>Students who passed the exam:</h2>
+
+<ol>
+     {{#each sorted}}
+        <li>{{this.name}} achieved {{this.score}} points</li>
+     {{/each}}
+</ol>
